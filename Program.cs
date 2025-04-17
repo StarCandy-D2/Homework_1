@@ -98,7 +98,7 @@ namespace TextRPG
             this.player = player;
             this.monster = monster;
 
-            // 이벤트 구독
+            // 이벤트
             OnPlayerAttack += () =>
             {
                 Console.WriteLine("\n[플레이어의 공격]");
